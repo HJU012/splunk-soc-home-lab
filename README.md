@@ -75,32 +75,17 @@ Running `sudo` on Kali with a wrong password writes a `pam_unix(sudo:auth): auth
 
 ## Screenshots
 
-**1. Both VMs running in VirtualBox**
-![VirtualBox VMs](screenshots/01-virtualbox-vms.png)
+Click a link to open the screenshot.
 
-**2. Splunk running on the Ubuntu server (IP and service status)**
-![Ubuntu Splunk running](screenshots/02-ubuntu-splunk-running.png)
-
-**3. Splunk Enterprise web interface**
-![Splunk web home](screenshots/03-splunk-web-home.png)
-
-**4. Receiving port 9997 enabled**
-![Receiving port 9997](screenshots/04-receiving-port-9997.png)
-
-**5. Forwarder connected to the Splunk server (Active forwards)**
-![Forwarder connected](screenshots/05-kali-forwarder-connected.png)
-
-**6. Forwarder configuration files**
-![Forwarder configs](screenshots/06-forwarder-configs.png)
-
-**7. Kali events searchable in Splunk**
-![Search events](screenshots/07-splunk-search-events.png)
-
-**8. Generating a failed sudo attempt on Kali**
-![Failed sudo attempt](screenshots/08-failed-sudo-attempt.png)
-
-**9. The failed login detected in Splunk**
-![Authentication failure detection](screenshots/09-detection-auth-failure.png)
+1. [Both VMs running in VirtualBox](01-virtualbox-vms.png.png)
+2. [Splunk running on the Ubuntu server (IP and service status)](02-ubuntu-splunk-running.png.png)
+3. [Splunk Enterprise web interface](03-splunk-web-home.png.png)
+4. [Receiving port 9997 enabled](04-receiving-port-9997.png.png)
+5. [Forwarder connected to the Splunk server (Active forwards)](05-kali-forwarder-connected.png.png)
+6. [Forwarder configuration files](06-forwarder-configs.png.png)
+7. [Kali events searchable in Splunk](07-splunk-search-events.png.png)
+8. [Generating a failed sudo attempt on Kali](08-failed-sudo-attempt.png.png)
+9. [The failed login detected in Splunk](09-detection-auth-failure.png.png)
 
 ## Troubleshooting log
 
